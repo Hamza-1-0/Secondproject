@@ -1,4 +1,3 @@
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Header-style.css";
@@ -6,10 +5,12 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { Container } from "react-bootstrap";
 
 const Header = () => {
   return (
     <div className="head">
+      {" "}
       <Container>
         <Row>
           <Col></Col>

@@ -1,5 +1,62 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(115vh - 61px);
+}
+
 .info{
     display: flex;
-   
+    justify-content: center;
     flex-direction: column;
 }
+.text h1{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.text h1 span{
+    color: #025add;
+}
+.text p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.social a{
+color: #025add;
+margin-right: 25px;
+}
+
+.btn{
+    display: flex;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.btn .Get-1{
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    background: #025add;
+    border-radius: 30px;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn .Get-2{
+     padding: 15px 30px;
+    border: none;
+    color: white;
+    background: #025add;
+    border-radius: 30px;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+

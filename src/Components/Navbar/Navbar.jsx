@@ -11,7 +11,12 @@ const firstNavbar = () => {
     <Navbar expand="lg" className="bg-body-tertiary nav">
       <Container>
         <Navbar.Brand href="#home">
-          <img src="src\assets\logo.png" alt="" srcset="" className="logo" />
+          <img
+            src="src\assets\News\logo.png"
+            alt=""
+            srcset=""
+            className="logo"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
