@@ -1,6 +1,6 @@
-import React from "react";
 import "./Choose-style.css";
 import { Container, Row, Col } from "react-bootstrap";
+import Icon1 from "./../../assets/News/icons/icon-1.svg";
 const Choose = () => {
   return (
     <div className="choose">
@@ -9,15 +9,25 @@ const Choose = () => {
       <Container className="d-flex">
         <Row className="cont">
           <Col>
-            <div className="text-choose">
+            {/* <div className="text-choose">
+              <div className="icon">
+                <img src="src\assets\News\icons\icon-1.svg" alt="" />
+              </div>
               <h4>Experience</h4>
               <p>
                 Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 labore et dolore magna aliqua.
               </p>
-            </div>
-            <div className="icon">
-              <img src="src\assets\News\icons\icon-1.svg" alt="" />
+            </div> */}
+            <div className="test-class">
+              <div>
+                <h1>Experience</h1>
+                <p>
+                  Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <img src={Icon1} alt="" width={75} />
             </div>
           </Col>
           <Col>
