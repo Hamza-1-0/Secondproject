@@ -4,8 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 const Choose = () => {
   return (
     <div className="choose">
-      <h2>Why Choose Us</h2>
-      <p className="text-top">Lorem ipsum dolor sit amet</p>
+      <h2 className="text-top">Why Choose Us</h2>
+      <p className="text-down">Lorem ipsum dolor sit amet</p>
       <Container className="d-flex">
         <Row className="cont">
           <Col>

@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import Header from "../Components/Header/Header";
 import Information from "../Components/Information/Information";
 import Choose from "../Components/Choose/Choose";
+import Portfolio from "../Components/Portfolio/Portfolio";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Header />
       <Information />
       <Choose />
+      <Portfolio />
     </>
   );
 };
