@@ -2,7 +2,7 @@ import React from "react";
 import "./Pricing-style.css";
 import { FaRegCheckCircle } from "react-icons/fa";
 
-import { Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 const Pricing = () => {
   return (
     <div className="pricing">
@@ -57,7 +57,7 @@ const Pricing = () => {
             </li>
           </ul>
           <div className="btn">
-            <Button>Order Now </Button>
+            <button>Order Now</button>
           </div>
         </div>
         <div className="card">
@@ -69,7 +69,7 @@ const Pricing = () => {
               <span>$</span> 50
             </p>
           </div>
-          <ul className="addtion">
+          <ul className="addition">
             <li>
               <FaRegCheckCircle />
               Unlimited GB Space
@@ -108,7 +108,7 @@ const Pricing = () => {
             </li>
           </ul>
           <div className="btn">
-            <Button>Order Now </Button>
+            <button>Order Now </button>
           </div>
         </div>
         <div className="card">
@@ -117,10 +117,10 @@ const Pricing = () => {
           </div>
           <div className="price">
             <p>
-              <span>$</span> 100
+              <span className="plus">$</span> 100
             </p>
           </div>
-          <ul className="addtion">
+          <ul className="addition">
             <li>
               <FaRegCheckCircle />
               Unlimited GB Space
@@ -159,7 +159,7 @@ const Pricing = () => {
             </li>
           </ul>
           <div className="btn">
-            <Button>Order Now </Button>
+            <button>Order Now </button>
           </div>
         </div>
       </Container>
