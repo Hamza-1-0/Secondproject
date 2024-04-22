@@ -4,6 +4,7 @@ import Header from "../Components/Header/Header";
 import Information from "../Components/Information/Information";
 import Choose from "../Components/Choose/Choose";
 import Portfolio from "../Components/Portfolio/Portfolio";
+import Pricing from "../Components/Pricing/Pricing";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Information />
       <Choose />
       <Portfolio />
+      <Pricing />
     </>
   );
 };
