@@ -1,0 +1,29 @@
+.pricing{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+
+.pricing .card{
+    position: relative;
+    height: 520px;
+    background: #ffffffff;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 40px;
+    transition: .5s;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 0;
+    box-shadow: -1px 5px 20px 0px #525a651a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .pricing .card:hover{
+    transform: scale(1.1);
+} */
+.pricing .card .title{}
+.pricing .card .price{}
+.pricing .card .addition{}
+.pricing .card .btn{}

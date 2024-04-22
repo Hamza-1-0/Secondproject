@@ -6,8 +6,10 @@ import { Button, Container } from "react-bootstrap";
 const Pricing = () => {
   return (
     <div className="pricing">
-      <Container>
-        <div className="basic">
+      <h2 className="text-top">Pricing Plans</h2>
+      <p className="text-down">Lorem ipsum dolor sit amet</p>
+      <Container className="d-flex">
+        <div className="card">
           <div className="title">
             <h2>Basic</h2>
           </div>
@@ -16,7 +18,7 @@ const Pricing = () => {
               <span>$</span> 25
             </p>
           </div>
-          <ul className="addtion">
+          <ul className="addition">
             <li>
               <FaRegCheckCircle />
               Unlimited GB Space
@@ -58,7 +60,7 @@ const Pricing = () => {
             <Button>Order Now </Button>
           </div>
         </div>
-        <div className="standard">
+        <div className="card">
           <div className="title">
             <h2>Standard</h2>
           </div>
@@ -109,7 +111,7 @@ const Pricing = () => {
             <Button>Order Now </Button>
           </div>
         </div>
-        <div className="premium">
+        <div className="card">
           <div className="title">
             <h2>Premium</h2>
           </div>
