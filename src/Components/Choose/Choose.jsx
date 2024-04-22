@@ -5,42 +5,45 @@ const Choose = () => {
   return (
     <div className="choose">
       <h2>Why Choose Us</h2>
-      <p>Lorem ipsum dolor sit amet</p>
+      <p className="text-top">Lorem ipsum dolor sit amet</p>
       <Container className="d-flex">
         <Row className="cont">
           <Col>
-            <div className="text-choose">
-              <h4>Experience</h4>
-              <p>
-                Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-              </p>
-            </div>
-            <div className="icon">
+            <div className="content-choose">
+              <div className="text-choose left">
+                {" "}
+                <h4>Experience</h4>
+                <p>
+                  Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+              </div>{" "}
               <img src="src\assets\News\icons\icon-1.svg" alt="" />
             </div>
           </Col>
           <Col>
-            <div className="text-choose">
-              <h4>Products</h4>
-              <p>
-                Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-              </p>
-            </div>
-            <div className="icon">
+            <div className="content-choose">
+              <div className="text-choose left">
+                {" "}
+                <h4>Products</h4>
+                <p>
+                  Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+              </div>{" "}
               <img src="src\assets\News\icons\icon-2.svg" alt="" />
             </div>
           </Col>
           <Col>
-            <div className="text-choose">
-              <h4>Approach</h4>
-              <p>
-                Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-              </p>
-            </div>
-            <div className="icon">
+            <div className="content-choose">
+              <div className="text-choose left">
+                {" "}
+                <h4>Approach</h4>
+                <p>
+                  Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+              </div>{" "}
               <img src="src\assets\News\icons\icon-3.svg" alt="" />
             </div>
           </Col>
@@ -50,41 +53,45 @@ const Choose = () => {
         </Row>
         <Row className="cont">
           <Col>
-            {" "}
-            <div className="icon">
+            <div className="content-choose">
+              {" "}
               <img src="src\assets\News\icons\icon-4.svg" alt="" />
-            </div>
-            <div className="text-choose">
-              <h4>Pricing</h4>
-              <p>
-                Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-              </p>
+              <div className="text-choose">
+                {" "}
+                <h4>Pricing</h4>
+                <p>
+                  Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+              </div>{" "}
             </div>
           </Col>
           <Col>
-            {" "}
-            <div className="icon">
+            <div className="content-choose">
+              {" "}
               <img src="src\assets\News\icons\icon-5.svg" alt="" />
-            </div>
-            <div className="text-choose">
-              <h4>Delivery</h4>
-              <p>
-                Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-              </p>
+              <div className="text-choose">
+                {" "}
+                <h4>Delivery</h4>
+                <p>
+                  Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+              </div>{" "}
             </div>
           </Col>
           <Col>
-            <div className="icon">
+            <div className="content-choose">
+              {" "}
               <img src="src\assets\News\icons\icon-6.svg" alt="" />
-            </div>{" "}
-            <div className="text-choose">
-              <h4>Approach</h4>
-              <p>
-                Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-              </p>
+              <div className="text-choose">
+                {" "}
+                <h4>Support</h4>
+                <p>
+                  Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua.
+                </p>
+              </div>{" "}
             </div>
           </Col>
         </Row>
