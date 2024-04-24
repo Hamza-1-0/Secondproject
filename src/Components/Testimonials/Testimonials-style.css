@@ -1,0 +1,75 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-test{
+    box-sizing: content-box;
+    padding: 30px;
+    margin: 30px 10px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -1px 5px 20px 0px rgb(82 90 101 / 10%);
+}
+  
+  .card-test .content-top{ 
+    display: flex;
+    justify-content: flex-start;
+
+   }
+  .card-test .content-top img{
+    width: 90px;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: 0.3s all ;
+    }
+    .card-test .content-top img:hover{
+        transform: scale(1.1);
+    }
+  .card-test .content-top .content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-bottom: 30px;
+
+    }
+  .card-test .content-top .content-text h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #025add; 
+ }
+  .card-test .content-top .content-text p{ 
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+ }
+  .card-test .content-top .content-text .stars{
+    display: flex;
+    color: gold;
+   }
+   .card-test .content-down p{
+    font-style: italic;
+    margin: 15px auto 15px auto;
+    color: #3a3a3a;
+   }
