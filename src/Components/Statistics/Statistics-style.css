@@ -1,0 +1,38 @@
+.statistics{
+    background-color: rgba(105, 105, 105, 0.486);
+    padding-top: 50px;
+    padding-bottom: 80px;  
+
+}
+.data-web{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+.data-web .data-stas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.data-web .data-stas img{
+    margin-bottom: 20px;
+    transition: 0.4s all;
+}
+.data-web .data-stas img:hover{
+    transform: scale(1.1);
+}
+.data-web .data-stas .text h5{
+    color: #025add;
+    font-size: 24px;
+    font-weight: 600;
+}
+.data-web .data-stas .text h3{
+    color: #025add;
+    font-size: 30px;
+    font-weight: 400;
+}
+.data-web .data-stas .text p{
+    font-size: 18px;
+    font-weight: 400;
+}
