@@ -8,6 +8,7 @@ import Testimonials from "../Components/Testimonials/Testimonials";
 import Statistics from "../Components/Statistics/Statistics";
 import Client from "../Components/Client/Client";
 import { useEffect, useState } from "react";
+import Team from "../Components/Team/Team";
 
 const Home = () => {
   const [scroll, setScroll] = useState();
@@ -31,6 +32,7 @@ const Home = () => {
       <Testimonials />
       <Statistics />
       <Client />
+      <Team />
     </>
   );
 };
