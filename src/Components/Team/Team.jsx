@@ -5,6 +5,8 @@ import { FaTwitter, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 const Team = () => {
   return (
     <div className="team">
+      <h2 className="text-top">Team</h2>
+      <p className="text-down">Lorem ipsum dolor sit amet</p>
       <Container>
         <Row>
           <Col>
@@ -15,10 +17,18 @@ const Team = () => {
                 <p>Application Manager</p>
               </div>
               <div className="icons-team">
-                <FaTwitter className="icon" />
-                <FaFacebook className="icon" />
-                <FaLinkedin className="icon" />
-                <FaInstagram className="icon" />
+                <a href="">
+                  <FaTwitter className="icon" />
+                </a>
+                <a href="">
+                  <FaFacebook className="icon" />
+                </a>
+                <a href="">
+                  <FaLinkedin className="icon" />
+                </a>
+                <a href="">
+                  <FaInstagram className="icon" />
+                </a>
               </div>
             </div>
           </Col>
@@ -30,10 +40,18 @@ const Team = () => {
                 <p>Social Media</p>
               </div>
               <div className="icons-team">
-                <FaTwitter className="icon" />
-                <FaFacebook className="icon" />
-                <FaLinkedin className="icon" />
-                <FaInstagram className="icon" />
+                <a href="">
+                  <FaTwitter className="icon" />
+                </a>
+                <a href="">
+                  <FaFacebook className="icon" />
+                </a>
+                <a href="">
+                  <FaLinkedin className="icon" />
+                </a>
+                <a href="">
+                  <FaInstagram className="icon" />
+                </a>
               </div>
             </div>
           </Col>
@@ -45,10 +63,18 @@ const Team = () => {
                 <p>Content Writer</p>
               </div>
               <div className="icons-team">
-                <FaTwitter className="icon" />
-                <FaFacebook className="icon" />
-                <FaLinkedin className="icon" />
-                <FaInstagram className="icon" />
+                <a href="">
+                  <FaTwitter className="icon" />
+                </a>
+                <a href="">
+                  <FaFacebook className="icon" />
+                </a>
+                <a href="">
+                  <FaLinkedin className="icon" />
+                </a>
+                <a href="">
+                  <FaInstagram className="icon" />
+                </a>
               </div>
             </div>
           </Col>
@@ -60,10 +86,18 @@ const Team = () => {
                 <p>Business Manager</p>
               </div>
               <div className="icons-team">
-                <FaTwitter className="icon" />
-                <FaFacebook className="icon" />
-                <FaLinkedin className="icon" />
-                <FaInstagram className="icon" />
+                <a href="">
+                  <FaTwitter className="icon" />
+                </a>
+                <a href="">
+                  <FaFacebook className="icon" />
+                </a>
+                <a href="">
+                  <FaLinkedin className="icon" />
+                </a>
+                <a href="">
+                  <FaInstagram className="icon" />
+                </a>
               </div>
             </div>
           </Col>

@@ -1,0 +1,54 @@
+.team{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #f8f8f8;
+}
+.box-team{
+    text-align: center;
+}
+.box-team img{
+    max-width: 15rem;
+    border-radius: 15px;
+    transition: .4s all;
+    margin-bottom: 15px;
+}
+.box-team img:hover{
+    transform: scale(1.1);
+}
+.box-team .text-team h4{
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: #025add;
+}
+.box-team .text-team p{
+    font-style: italic;
+    display: block;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+.box-team .icons-team{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-team .icons-team a{
+    color: #025add;
+    transition: 0.3s;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e8e8e8;
+}
+.box-team .icons-team a:hover{
+    border-color: #025add;
+}
+.box-team .icons-team .icon{
+    font-size: 16px;
+    margin: 0 2px;
+}
