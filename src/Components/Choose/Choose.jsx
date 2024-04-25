@@ -1,4 +1,3 @@
-import React from "react";
 import "./Choose-style.css";
 import { Container, Row, Col } from "react-bootstrap";
 const Choose = () => {

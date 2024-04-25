@@ -1,0 +1,32 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .client{
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .client img{
+    filter: grayscale(1);
+    transition: 0.4s all;
+  }
+  .client img:hover{
+    transform: scale(1.1);
+  }

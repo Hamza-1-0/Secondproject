@@ -13,6 +13,17 @@
     top: 0;
     left: 0;
     z-index: 100;
+    background-color: #ffffff;
+}
+
+.customNav {
+    background-color: transparent !important;
+}
+.customNav .links {
+    color: white !important;
+}
+.customNav .menu-link a  {
+    color: white !important;
 }
 
 .logo{

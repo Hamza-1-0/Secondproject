@@ -1,4 +1,3 @@
-import React from "react";
 import "./Pricing-style.css";
 import { FaRegCheckCircle } from "react-icons/fa";
 

@@ -1,6 +1,5 @@
-import React from "react";
 import "./Portfolio-style.css";
-import { Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Portfolio = () => {
   return (

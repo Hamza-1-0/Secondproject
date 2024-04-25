@@ -6,17 +6,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar-style.css";
 import { IoIosMoon } from "react-icons/io";
 
-const firstNavbar = () => {
+const firstNavbar = ({ scrollHeight }) => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary nav">
+    <Navbar
+      expand="lg"
+      className={scrollHeight <= 50 ? "customNav nav" : "bg-body nav"}
+    >
       <Container>
         <Navbar.Brand href="#home">
-          <img
-            src="src\assets\News\logo.png"
-            alt=""
-            srcset=""
-            className="logo"
-          />
+          <img src="src\assets\News\logo.png" alt="" className="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -36,7 +34,11 @@ const firstNavbar = () => {
             <Nav.Link href="#Team" className="links">
               Team
             </Nav.Link>{" "}
-            <NavDropdown title="Menu" id="basic-nav-dropdown">
+            <NavDropdown
+              className="menu-link"
+              title="Menu"
+              id="basic-nav-dropdown"
+            >
               <NavDropdown.Item href="#action/3.1">About</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Pricing</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">FAQs</NavDropdown.Item>

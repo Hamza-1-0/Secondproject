@@ -1,4 +1,3 @@
-import React from "react";
 import "./Statistics-style.css";
 import { Container } from "react-bootstrap";
 const Statistics = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Header from "../Components/Header/Header";
 import Information from "../Components/Information/Information";
@@ -7,11 +6,23 @@ import Portfolio from "../Components/Portfolio/Portfolio";
 import Pricing from "../Components/Pricing/Pricing";
 import Testimonials from "../Components/Testimonials/Testimonials";
 import Statistics from "../Components/Statistics/Statistics";
+import Client from "../Components/Client/Client";
+import { useEffect, useState } from "react";
 
 const Home = () => {
+  const [scroll, setScroll] = useState();
+
+  console.log(window.scrollY);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY);
+    });
+  }, []);
+
   return (
     <>
-      <Navbar />
+      <Navbar scrollHeight={scroll} />
       <Header />
       <Information />
       <Choose />
@@ -19,6 +30,7 @@ const Home = () => {
       <Pricing />
       <Testimonials />
       <Statistics />
+      <Client />
     </>
   );
 };

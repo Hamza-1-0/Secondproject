@@ -17,6 +17,7 @@ const Testimonials = () => {
         {" "}
         <Swiper
           slidesPerView={3}
+          autoplay={true}
           spaceBetween={30}
           pagination={{
             clickable: true,
