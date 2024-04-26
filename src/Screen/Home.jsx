@@ -11,9 +11,7 @@ import { useEffect, useState } from "react";
 import Team from "../Components/Team/Team";
 
 const Home = () => {
-  const [scroll, setScroll] = useState();
-
-  console.log(window.scrollY);
+  const [scroll, setScroll] = useState(0);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {

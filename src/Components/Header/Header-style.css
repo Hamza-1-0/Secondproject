@@ -38,6 +38,7 @@ margin-right: 25px;
     display: flex;
     margin-left: -20px;
     margin-top: 20px;
+    border: none;
 }
 .btn .Get-1{
     padding: 15px 30px;

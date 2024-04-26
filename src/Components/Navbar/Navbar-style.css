@@ -25,6 +25,9 @@
 .customNav .menu-link a  {
     color: white !important;
 }
+.customNav .menu-link .items  {
+    color: black !important;
+}
 
 .logo{
     max-height: 35px;

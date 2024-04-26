@@ -39,17 +39,25 @@ const firstNavbar = ({ scrollHeight }) => {
               title="Menu"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="#action/3.1">About</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Pricing</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">FAQs</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item className="items" href="#action/3.1">
+                About
+              </NavDropdown.Item>
+              <NavDropdown.Item className="items" href="#action/3.2">
+                Pricing
+              </NavDropdown.Item>
+              <NavDropdown.Item className="items" href="#action/3.3">
+                FAQs
+              </NavDropdown.Item>
+              <NavDropdown.Item className="items" href="#action/3.4">
                 Terms & Conditions
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.5">
+              <NavDropdown.Item className="items" href="#action/3.5">
                 Privacy policy
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.6">Blogs</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.7">
+              <NavDropdown.Item className="items" href="#action/3.6">
+                Blogs
+              </NavDropdown.Item>
+              <NavDropdown.Item className="items" href="#action/3.7">
                 Blog Detail Page
               </NavDropdown.Item>
             </NavDropdown>
