@@ -9,6 +9,8 @@ import Statistics from "../Components/Statistics/Statistics";
 import Client from "../Components/Client/Client";
 import { useEffect, useState } from "react";
 import Team from "../Components/Team/Team";
+import Preview from "../Components/preview-contact/Preview";
+import Blog from "../Components/Blog/Blog";
 
 const Home = () => {
   const [scroll, setScroll] = useState(0);
@@ -31,6 +33,8 @@ const Home = () => {
       <Statistics />
       <Client />
       <Team />
+      <Preview />
+      <Blog />
     </>
   );
 };
