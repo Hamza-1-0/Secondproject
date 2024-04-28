@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./Testimonials-style.css";
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import { IoStarSharp } from "react-icons/io5";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa6";
 import { Container } from "react-bootstrap";
@@ -14,15 +14,18 @@ const Testimonials = () => {
       <p className="text-down">Lorem ipsum dolor sit amet</p>
 
       <Container>
-        {" "}
         <Swiper
           slidesPerView={3}
-          autoplay={true}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
+          modules={[Pagination, Autoplay, Navigation]}
+          navigation={true}
           spaceBetween={30}
           pagination={{
             clickable: true,
           }}
-          modules={[Pagination]}
           className="mySwiper"
         >
           <SwiperSlide>
@@ -57,11 +60,11 @@ const Testimonials = () => {
               <div className="content-down">
                 <p>
                   {" "}
-                  <FaQuoteLeft />
+                  <FaQuoteLeft className="icon-left" />
                   Proin iaculis purus consequat sem cure digni ssim donec
                   porttitora entum suscipit rhoncus. Accusantium quam, ultricies
                   eget id, aliquam eget nibh et. Maecen aliquam.
-                  <FaQuoteRight />
+                  <FaQuoteRight className="icon-right" />
                 </p>
               </div>
             </div>
@@ -99,11 +102,11 @@ const Testimonials = () => {
               <div className="content-down">
                 <p>
                   {" "}
-                  <FaQuoteLeft />
+                  <FaQuoteLeft className="icon-left" />
                   Proin iaculis purus consequat sem cure digni ssim donec
                   porttitora entum suscipit rhoncus. Accusantium quam, ultricies
                   eget id, aliquam eget nibh et. Maecen aliquam.
-                  <FaQuoteRight />
+                  <FaQuoteRight className="icon-right" />
                 </p>
               </div>
             </div>
@@ -141,11 +144,11 @@ const Testimonials = () => {
               <div className="content-down">
                 <p>
                   {" "}
-                  <FaQuoteLeft />
+                  <FaQuoteLeft className="icon-left" />
                   Proin iaculis purus consequat sem cure digni ssim donec
                   porttitora entum suscipit rhoncus. Accusantium quam, ultricies
                   eget id, aliquam eget nibh et. Maecen aliquam.
-                  <FaQuoteRight />
+                  <FaQuoteRight className="icon-right" />
                 </p>
               </div>
             </div>
@@ -182,11 +185,12 @@ const Testimonials = () => {
               </div>
               <div className="content-down">
                 <p>
-                  <FaQuoteLeft />
+                  {" "}
+                  <FaQuoteLeft className="icon-left" />
                   Proin iaculis purus consequat sem cure digni ssim donec
                   porttitora entum suscipit rhoncus. Accusantium quam, ultricies
                   eget id, aliquam eget nibh et. Maecen aliquam.
-                  <FaQuoteRight />
+                  <FaQuoteRight className="icon-right" />
                 </p>
               </div>
             </div>
@@ -223,11 +227,11 @@ const Testimonials = () => {
               <div className="content-down">
                 <p>
                   {" "}
-                  <FaQuoteLeft />
+                  <FaQuoteLeft className="icon-left" />
                   Proin iaculis purus consequat sem cure digni ssim donec
                   porttitora entum suscipit rhoncus. Accusantium quam, ultricies
                   eget id, aliquam eget nibh et. Maecen aliquam.
-                  <FaQuoteRight />
+                  <FaQuoteRight className="icon-right" />
                 </p>
               </div>
             </div>
@@ -264,10 +268,12 @@ const Testimonials = () => {
               </div>
               <div className="content-down">
                 <p>
-                  <FaQuoteLeft /> Proin iaculis purus consequat sem cure digni
-                  ssim donec porttitora entum suscipit rhoncus. Accusantium
-                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam.{" "}
-                  <FaQuoteRight />
+                  {" "}
+                  <FaQuoteLeft className="icon-left" />
+                  Proin iaculis purus consequat sem cure digni ssim donec
+                  porttitora entum suscipit rhoncus. Accusantium quam, ultricies
+                  eget id, aliquam eget nibh et. Maecen aliquam.
+                  <FaQuoteRight className="icon-right" />
                 </p>
               </div>
             </div>

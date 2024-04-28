@@ -35,7 +35,7 @@ const firstNavbar = ({ scrollHeight }) => {
               Team
             </Nav.Link>{" "}
             <NavDropdown
-              className="menu-link"
+              className="menu-link "
               title="Menu"
               id="basic-nav-dropdown"
             >

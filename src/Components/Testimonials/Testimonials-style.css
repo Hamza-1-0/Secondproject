@@ -76,3 +76,14 @@
     margin: 15px auto 15px auto;
     color: #3a3a3a;
    }
+   .card-test .content-down p .icon-left{
+    margin-right: 5px;
+    font-size: 24px;
+    color: #025add;
+   }
+   .card-test .content-down p .icon-right{
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 24px;
+    color: #025add;
+   }

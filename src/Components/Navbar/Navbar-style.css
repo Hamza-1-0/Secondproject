@@ -21,16 +21,26 @@
 }
 .customNav .links {
     color: white !important;
+    transition: 0.3s all;
 }
 .customNav .menu-link a  {
-    color: white !important;
+    color: white !important;   
+     transition: 0.3s all;
+
 }
 .customNav .menu-link .items  {
-    color: black !important;
+    color: black !important;  
+      transition: 0.3s all;
+
+}
+.customNav .links:hover,
+.customNav .menu-link a:hover,
+.customNav .menu-link .items:hover  {
+    color: var(--main-color) !important;
 }
 
 .logo{
-    max-height: 35px;
+    max-height: 40px;
     margin-right: 6px;
     transition: 0.4s all ease;
 }
@@ -77,9 +87,24 @@
 
 }
 .links{
+    margin-right: 15px;
+    font-size: 18px;
     font-weight: 600;
     transition: 0.3s;
 }
 .links:hover{
     color: var(--main-color);
+}
+#basic-nav-dropdown{
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s all;
+}
+#basic-nav-dropdown:hover{
+    color: var(--main-color);
+}
+.menu-link .items:hover{
+    color: var(--main-color);
+
 }
