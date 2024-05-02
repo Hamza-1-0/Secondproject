@@ -8,8 +8,16 @@
     background-size: cover;
     width: 100%;
     height: calc(115vh - 61px);
+    position: relative;
+    z-index: 1;
 }
 
+.particles{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .info{
     display: flex;
     justify-content: center;
