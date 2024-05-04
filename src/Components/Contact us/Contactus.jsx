@@ -6,9 +6,9 @@ const Contactus = () => {
     <div className="contact">
       <h2 className="text-top">Contact Us</h2>
       <p className="text-down">Lorem ipsum dolor sit amet</p>
-      <Container>
-        <Row>
-          <Col>
+      <Container className="d-flex justify-content-around">
+        <Row lg={4}>
+          <Col lg={12}>
             <div className="deatils">
               <div className="adress">
                 <h6>Address:</h6>
@@ -28,22 +28,37 @@ const Contactus = () => {
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <form action="">
-              <input type="text" value={"Name*"} />
-              <input type="email" name="" id="" value={"Email"} />
-              <input type="text" value={"Subject"} />
+        <Row lg={8}>
+          <div className="form">
+            <Col md={12} className="d-flex">
+              <input type="text" value={"Name*"} className="form-control " />{" "}
+              <input
+                type="email"
+                name=""
+                id=""
+                value={"Email"}
+                className="form-control "
+              />
+            </Col>
+            <Col md={12}>
+              <input type="text" value={"Subject"} className="form-control" />
+            </Col>
+            <Col md={12}>
+              {" "}
               <textarea
                 name=""
                 id=""
                 cols="30"
                 rows="10"
                 value={"Write Your Massage"}
+                className="form-control"
               ></textarea>
-              <input type="button" value="Send Massage" />
-            </form>
-          </Col>
+            </Col>
+            <Col md={12}>
+              {" "}
+              <input type="button" value="Send Massage" className="button" />
+            </Col>
+          </div>
         </Row>
       </Container>
     </div>

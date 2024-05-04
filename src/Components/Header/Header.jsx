@@ -6,11 +6,11 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Container } from "react-bootstrap";
-import ParticlesComponent from "../particles/Particles";
+// import ParticlesComponent from "../particles/Particles";
 const Header = () => {
   return (
     <div className="head">
-      <ParticlesComponent />
+      {/* <ParticlesComponent /> */}
       <Container>
         <Row>
           <Col></Col>
