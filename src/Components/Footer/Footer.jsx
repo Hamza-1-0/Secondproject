@@ -13,9 +13,13 @@ const Footer = () => {
     <div className="footer">
       <Container>
         <Row>
-          <Col>
+          <Col xl={4}>
             <div className="left-footer">
-              <img src="src\assets\News\logo.png" alt="" className="logo" />
+              <img
+                src="src\assets\News\logo.png"
+                alt=""
+                className="logo-footer"
+              />
               <div className="text">
                 <p>
                   Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed
@@ -31,17 +35,17 @@ const Footer = () => {
                 </a>
                 <a href="">
                   <FaFacebook />
+                </a>{" "}
+                <a href="">
+                  <FaInstagram />
                 </a>
                 <a href="">
                   <FaLinkedin />
                 </a>
-                <a href="">
-                  <FaInstagram />
-                </a>
               </div>
             </div>
           </Col>
-          <Col>
+          <Col xl={2}>
             <div className="services-footer">
               <h2>Services</h2>
               <ul className="list">
@@ -54,7 +58,7 @@ const Footer = () => {
               </ul>
             </div>
           </Col>
-          <Col>
+          <Col xl={2}>
             <div className="information-footer">
               <h2>Information</h2>
               <ul className="list">
@@ -70,7 +74,7 @@ const Footer = () => {
               </ul>
             </div>
           </Col>
-          <Col>
+          <Col xl={4}>
             <div className="contacts-footer">
               <h2>Contacts</h2>
               <div className="text">

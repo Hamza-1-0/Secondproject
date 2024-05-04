@@ -1,3 +1,4 @@
+
 .footer{
     background: url(./hero-bg.png) center left;
     background-size: cover;
@@ -19,4 +20,91 @@
     z-index: 0;
     opacity: 0.8;
 }
- 
+.left-footer{
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.left-footer .logo-footer{
+    max-width: 200px;
+    margin-bottom: 30px;
+    transition: 0.4s all ;
+
+}
+.left-footer .logo-footer:hover{
+    transform: scale(1.1);
+}
+.left-footer .text p{
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #ffffff;
+    line-height: 28px;
+}
+.left-footer .text h4{
+    color:#025add;
+    display: block;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.left-footer .icons a{
+    margin-right: 20px;
+    font-size: 17px;
+    color: #fff;
+}
+
+
+.services-footer{
+     position: relative;
+    z-index: 1;
+    color: white;
+}
+.services-footer h2{
+    color:#025add;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+}
+.services-footer .list li{
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: 0.3s all ;
+    cursor: pointer;
+    }
+.services-footer .list li:hover{
+    color: #025add;
+}
+
+
+.information-footer{
+     position: relative;
+    z-index: 1;
+    color: white;
+}
+.information-footer h2{
+    color:#025add;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+}
+.information-footer .list li{
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: 0.3s all ;
+    cursor: pointer;
+    }
+.information-footer .list li:hover{
+    color: #025add;
+}
+
+
+.contacts-footer{ 
+    position: relative;
+    z-index: 1;
+    color: white;
+}
