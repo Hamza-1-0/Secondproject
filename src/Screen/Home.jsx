@@ -12,6 +12,7 @@ import Team from "../Components/Team/Team";
 import Preview from "../Components/preview-contact/Preview";
 import Blog from "../Components/Blog/Blog";
 import Contactus from "../Components/Contact us/Contactus";
+import Footer from "../Components/Footer/Footer";
 
 const Home = () => {
   const [scroll, setScroll] = useState(0);
@@ -37,6 +38,7 @@ const Home = () => {
       <Preview />
       <Blog />
       <Contactus />
+      <Footer />
     </>
   );
 };
