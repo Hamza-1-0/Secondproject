@@ -3,7 +3,7 @@ import "./Client-style.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 const Client = () => {
   return (
@@ -30,10 +30,7 @@ const Client = () => {
             delay: 4000,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Pagination, Autoplay]}
+          modules={[Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>

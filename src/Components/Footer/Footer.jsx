@@ -64,10 +64,12 @@ const Footer = () => {
               <ul className="list">
                 <li>About</li>
                 <li>Pricing</li>
+                <li>Portfolio</li>
+                <li>Team</li>
                 <li>FAQs</li>
                 <li>Team</li>
                 <li>Blogs</li>
-                <li> Blog Details</li>
+                <li>Blog Details</li>
                 <li>Coming Soon</li>
                 <li>Terms & Conditions</li>
                 <li>Privacy Policy</li>
@@ -80,16 +82,16 @@ const Footer = () => {
               <div className="text">
                 <p>
                   {" "}
-                  <FaMapMarkerAlt />
+                  <FaMapMarkerAlt className="icons" />
                   101 West Town , PBO 12345, United States
                 </p>
                 <p>
-                  <LuPhoneIncoming />
+                  <LuPhoneIncoming className="icons" />
                   +1 1234 56 789
                 </p>
                 <p>
                   {" "}
-                  <IoIosMail />
+                  <IoIosMail className="icons" />
                   contact@example.com
                 </p>
                 <h4>Newsletter</h4>
@@ -98,9 +100,13 @@ const Footer = () => {
                   below.
                 </p>
               </div>
-              <div className="button-contacts">
-                <input type="button" value="Email Adress" />
-                <FaTelegram />{" "}
+              <div className="sub-form">
+                <form action="">
+                  <input type="text" placeholder="Email Adress" />
+                  <button>
+                    <FaTelegram className="icon" />
+                  </button>
+                </form>
               </div>
             </div>
           </Col>

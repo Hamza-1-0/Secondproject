@@ -108,3 +108,46 @@
     z-index: 1;
     color: white;
 }
+.contacts-footer h2 ,
+.contacts-footer .text h4{
+    color: #025add;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+}
+.contacts-footer .text p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 28px;
+}
+.contacts-footer .text .icons{
+    font-size: 17px;
+    margin-right: 5px;
+}
+.contacts-footer .sub-form{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.sub-form input{
+    width: 100%;
+    padding: 14px 28px;
+    background: #e4e4e4;
+    border: 1px solid #e4e4e4;
+    color: #222222;
+    outline: none;
+}
+.sub-form button{
+    position: absolute;
+    right: -3px;
+    background: transparent;
+    border: 0;
+    top: 2px;
+}
+.sub-form .icon{
+    color: #025add;
+    font-size: 3rem;
+    transform: rotate(-6deg);
+}
