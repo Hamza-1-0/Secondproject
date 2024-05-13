@@ -1,5 +1,5 @@
 const Team = () => {
-  return <div>Team</div>;
+  return <div></div>;
 };
 
 export default Team;
