@@ -19,19 +19,19 @@ const firstNavbar = ({ scrollHeight }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="#home" className="links">
+            <Nav.Link href="/" className="links">
               Home
             </Nav.Link>
-            <Nav.Link href="#Services" className="links">
+            <Nav.Link href="/Services" className="links">
               Services
             </Nav.Link>
-            <Nav.Link href="#Portfolio" className="links">
+            <Nav.Link href="/Portfolio" className="links">
               Portfolio
             </Nav.Link>
-            <Nav.Link href="#Testimonials" className="links">
+            <Nav.Link href="/Testimonials" className="links">
               Testimonials
             </Nav.Link>
-            <Nav.Link href="#Team" className="links">
+            <Nav.Link href="/Team" className="links">
               Team
             </Nav.Link>{" "}
             <NavDropdown
@@ -61,7 +61,7 @@ const firstNavbar = ({ scrollHeight }) => {
                 Blog Detail Page
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#News" className="links">
+            <Nav.Link href="/News" className="links">
               News
             </Nav.Link>
           </Nav>
